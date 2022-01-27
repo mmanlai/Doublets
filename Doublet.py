@@ -52,7 +52,7 @@ find(start)
 for x in filtered_list:
   if x[0]==end:
     print('======Found======')
-    print(start.upper(),' to ',end.upper())
+    print(end.upper(),' to ',start.upper())
     steps(end,start)
     break
   else:
